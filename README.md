@@ -11,6 +11,7 @@ These notes are taken from the following learning materials:
 ## Table of Contents
 
 1. [JavaScript Introduction](#javascript-introduction)
+2. [JavaScript Fundamentals](#javascript-fundamentals)
 
 ## JavaScript Introduction
 
@@ -39,3 +40,14 @@ These notes are taken from the following learning materials:
   - [**ECMA-262**](https://www.ecma-international.org/publications/standards/Ecma-262.htm) contains the most in-depth, detailed and formalized information about JavaScript.
   - A new specification version is released every year.
   - Bleeding-edge features are called "stage-3" means they are almost standard and can be found at [https://github.com/tc39/proposals](https://github.com/tc39/proposals).
+
+
+## JavaScript Fundamentals
+
+- 2.1 **Automatic semicolon insertion**, in most cases, a newline implies a semicolon, but “in most cases” does not mean “always”! The rule is fully explained in the [specification](https://tc39.github.io/ecma262/#sec-automatic-semicolon-insertion).
+
+- 2.2 **variable naming**
+
+  - When variable name contains multiple words, `camelCase` is commonly used.
+  - Case matters; i.e. variables named `apple` and `AppLE` are two different variables.
+  - Non-Latin letters are allowed, but not recommended.
