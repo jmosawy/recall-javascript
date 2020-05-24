@@ -51,3 +51,15 @@ These notes are taken from the following learning materials:
   - When variable name contains multiple words, `camelCase` is commonly used.
   - Case matters; i.e. variables named `apple` and `AppLE` are two different variables.
   - Non-Latin letters are allowed, but not recommended.
+  - Using different variables for different values can even help the engine optimize your code.
+
+- 2.3 **Data types**
+  - There are **8** basic data types in JavaScript.
+    - **Number**: The *number* type represents both integer and floating point numbers. `Infinity`, `-Infinity`, and `NaN` are also of type *number*. `NaN` is sticky. Any further operation on `NaN` returns `NaN`.
+    - **BigInt**:
+    - **String**:
+    - **Boolean**:
+    - **null**:
+    - **undefined**:
+    - **Object**:
+    - **Symbol**:
